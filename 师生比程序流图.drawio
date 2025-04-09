@@ -22,7 +22,7 @@
         <mxCell id="tpIN3e0IpenN5bvJ_5Y2-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tpIN3e0IpenN5bvJ_5Y2-2" target="tpIN3e0IpenN5bvJ_5Y2-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tpIN3e0IpenN5bvJ_5Y2-15" value="需要找到老师教的所有的课次，计算当前课" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tpIN3e0IpenN5bvJ_5Y2-14">
+        <mxCell id="tpIN3e0IpenN5bvJ_5Y2-15" value="需要找到老师教的所有的课次，计算当前课次人数除以该老师教学总人数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tpIN3e0IpenN5bvJ_5Y2-14">
           <mxGeometry x="-0.1" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
