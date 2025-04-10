@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tpIN3e0IpenN5bvJ_5Y2-0" value="当期课次&lt;div&gt;education.class_schedule&lt;/div&gt;&lt;div&gt;中匹配上述class_id&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;arcSize=29;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="348.75" y="606" width="120" height="79" as="geometry" />
+          <mxGeometry x="345" y="599" width="120" height="79" as="geometry" />
         </mxCell>
         <mxCell id="tpIN3e0IpenN5bvJ_5Y2-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tpIN3e0IpenN5bvJ_5Y2-18" target="tpIN3e0IpenN5bvJ_5Y2-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -69,8 +69,10 @@
         <mxCell id="tpIN3e0IpenN5bvJ_5Y2-42" value="课消为“-”是指为空吗" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="86" y="1891" width="126" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-1" target="gTeUyaJtmX9zoKOIX4Y3-64">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-1" target="gTeUyaJtmX9zoKOIX4Y3-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="392" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-4" value="class_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gTeUyaJtmX9zoKOIX4Y3-3">
           <mxGeometry x="-0.3226" y="5" relative="1" as="geometry">
@@ -85,7 +87,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="gTeUyaJtmX9zoKOIX4Y3-24">
+        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-65" target="gTeUyaJtmX9zoKOIX4Y3-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="348" y="542" as="sourcePoint" />
           </mxGeometry>
@@ -95,7 +97,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-1" value="当期班级education.classes中匹配上述year和term的得到&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;school_area，&lt;/span&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;class_teachcer,teacher_id，grade,subject；&lt;/span&gt;&lt;div&gt;仅保留小班课、小组课、一对一、低价班课（course_type=常规班课，小组课、精品定制课，低价班课）&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-1" value="当期班级education.classes中匹配上述year和term的得到&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;school_area，&lt;/span&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;class_teachcer,teacher_id，grade,subject；&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 57, 15);&quot;&gt;仅保留小班课、小组课、一对一、低价班课（course_type=常规班课，小组课、精品定制课，低价班课）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 57, 15);&quot;&gt;剔除班型为新生（class_type != 新生）&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="239.5" y="236" width="331" height="96" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-7" target="gTeUyaJtmX9zoKOIX4Y3-8">
@@ -117,7 +119,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-7" value="是否上课&lt;br&gt;status?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="355.75" y="869" width="106" height="106" as="geometry" />
+          <mxGeometry x="352" y="876" width="106" height="106" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-8" target="gTeUyaJtmX9zoKOIX4Y3-28">
           <mxGeometry relative="1" as="geometry" />
@@ -142,7 +144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-14" value="是否存在？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="355.75" y="739" width="106" height="106" as="geometry" />
+          <mxGeometry x="352" y="726" width="106" height="106" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-16" target="gTeUyaJtmX9zoKOIX4Y3-28">
           <mxGeometry relative="1" as="geometry">
@@ -153,7 +155,7 @@
           <mxGeometry x="611" y="991" width="210.5" height="89" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-19" value="从user.department中通过parent_id一路向上拿到大区，区域id" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="552" y="598" width="156" height="80" as="geometry" />
+          <mxGeometry x="577" y="591" width="156" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-24" value="按照class_id将当期学生（在读和结业）聚合人数service_profile.class_student_info表中student_status匹配1120和1150；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="99" y="615" width="182" height="72" as="geometry" />
@@ -219,17 +221,13 @@
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-39" value="小班课和小组课&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;person_time&lt;/span&gt;&lt;div&gt;实际完成数&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="368" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-49" target="gTeUyaJtmX9zoKOIX4Y3-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-49" target="gTeUyaJtmX9zoKOIX4Y3-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1063.1" y="832" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-49" value="剔除特殊班级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-49" value="根据大区，区域，校区，年级，学科分组统计；&lt;div&gt;新增字段&lt;span style=&quot;color: rgb(23, 43, 77); text-align: left; background-color: transparent;&quot;&gt;student_count,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); text-align: left; background-color: transparent;&quot;&gt;student_count_no_low_price;&lt;/span&gt;&lt;font face=&quot;SFMono-Medium, SF Mono, Segoe UI Mono, Roboto Mono, Ubuntu Mono, Menlo, Courier, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;前者组内直接加和，后者排除低价后加和&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="933.5" y="606" width="259" height="138" as="geometry" />
-        </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-52" target="gTeUyaJtmX9zoKOIX4Y3-56">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-52" value="根据大区，区域，校区，年级，学科分组统计；&lt;div&gt;新增字段&lt;span style=&quot;color: rgb(23, 43, 77); text-align: left; background-color: transparent;&quot;&gt;&lt;font&gt;student_count,&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); text-align: left; background-color: transparent;&quot;&gt;&lt;font&gt;student_count_no_low_price;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;SFMono-Medium, SF Mono, Segoe UI Mono, Roboto Mono, Ubuntu Mono, Menlo, Courier, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;前者组内直接加和，后者排除低价后加和&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="940.75" y="832" width="244.5" height="166" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-54" target="gTeUyaJtmX9zoKOIX4Y3-56">
           <mxGeometry relative="1" as="geometry">
@@ -240,22 +238,16 @@
           <mxGeometry x="254.5" y="1223" width="319" height="115" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-56" value="根据大区，区域，校区，年级，学科；链接集合：&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(23, 43, 77); text-align: start;&quot;&gt;teacher_count，&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(23, 43, 77); text-align: start;&quot;&gt;teacher_count_no_low_price,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(23, 43, 77); text-align: start;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); text-align: left;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;student_count,&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); text-align: left;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;student_count_no_low_price&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: SFMono-Medium, &amp;quot;SF Mono&amp;quot;, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, Courier, monospace; font-size: 14px; color: rgb(23, 43, 77); text-align: left;&quot;&gt;；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(23, 43, 77); text-align: left;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;记录数据日期report_date,目标方案target_plan&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="933.5" y="1191.5" width="274" height="178" as="geometry" />
+          <mxGeometry x="926" y="1191.5" width="274" height="178" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-60" value="默认方案&lt;div&gt;public.target_plan中isdefault为true&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="953" y="66" width="214" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-64" target="gTeUyaJtmX9zoKOIX4Y3-65">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-64" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="348.75" y="403" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gTeUyaJtmX9zoKOIX4Y3-65" target="tpIN3e0IpenN5bvJ_5Y2-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-65" value="仅保留授课形式为免受和直播的班级" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="348.75" y="504" width="120" height="60" as="geometry" />
+        <mxCell id="gTeUyaJtmX9zoKOIX4Y3-65" value="&lt;font style=&quot;color: rgb(255, 72, 40);&quot;&gt;仅保留授课形式为面授和直播的班级&lt;/font&gt;通过class_id去关联education.course表；保留teach_form = online, offline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="423.5" width="194" height="114" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
