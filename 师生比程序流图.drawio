@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="990" dy="634" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -42,8 +42,8 @@
         <mxCell id="tpIN3e0IpenN5bvJ_5Y2-18" value="接口调用：教务-排课&lt;div&gt;条件course_type=常规班课，精品班课；&lt;/div&gt;&lt;div&gt;stime=2025-04-01;&lt;div&gt;etime=2025-04-30;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;status=已上课&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="564" y="1359" width="226.5" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="tpIN3e0IpenN5bvJ_5Y2-19" value="架构师生比：每天定时任务从默认方案（以及下期方案）获取开始" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="6" y="13" width="366" height="26" as="geometry" />
+        <mxCell id="tpIN3e0IpenN5bvJ_5Y2-19" value="架构师生比：每天定时任务从默认方案（以及下期方案）获取开始&lt;div&gt;6位小数最后保留整数&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="6" y="6" width="366" height="41" as="geometry" />
         </mxCell>
         <mxCell id="tpIN3e0IpenN5bvJ_5Y2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tpIN3e0IpenN5bvJ_5Y2-21" target="tpIN3e0IpenN5bvJ_5Y2-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -54,8 +54,8 @@
         <mxCell id="tpIN3e0IpenN5bvJ_5Y2-23" value="计算学员数：当次课在读人数，若为空则取课消人数;对其中相同班级的数据进行求平均，不同的进行加和；结果存入student_count字段，teacher_count记为1" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="552" y="1787" width="293.64" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="tpIN3e0IpenN5bvJ_5Y2-36" value="月度统计师生比：每天定时任务从教务排课的接口调用开始；&lt;div&gt;每次更新当前月的数据；当4月1日00：00是为上个月的数据最后一次更新&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="74" y="1428" width="406" height="41" as="geometry" />
+        <mxCell id="tpIN3e0IpenN5bvJ_5Y2-36" value="月度统计师生比：每天定时任务从教务排课的接口调用开始；&lt;div&gt;每次更新当前月的数据；当4月1日00：00是为上个月的数据最后一次更新&lt;/div&gt;&lt;div&gt;4位小数，最后保留一位&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="74" y="1421" width="406" height="55" as="geometry" />
         </mxCell>
         <mxCell id="gTeUyaJtmX9zoKOIX4Y3-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tpIN3e0IpenN5bvJ_5Y2-23" target="gTeUyaJtmX9zoKOIX4Y3-76" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -281,7 +281,7 @@
         <mxCell id="JT8y7Zuq1YJOYclAK3lC-0" value="不通过默认方案开始，而是直接通过班级表收集明细" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="593" y="190" width="140" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="JT8y7Zuq1YJOYclAK3lC-1" value="这里记录老师明细，不再进行人力计算直接存表&lt;div&gt;即teacher_id,class_teacher,再存一个班级id以便与前面的关联&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JT8y7Zuq1YJOYclAK3lC-1" value="这里记录老师明细，不再进行人力计算直接存表&lt;div&gt;即teacher_id,class_teacher,再存一个班级id以便与人次那边的关联&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="85" y="1220" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="JT8y7Zuq1YJOYclAK3lC-2" value="这里原始记录人次，一对一，低价人数，再存个班级id" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
